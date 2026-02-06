@@ -6,14 +6,14 @@
   <title>🍊🐷 제주감귤돼지들 여행 초대권</title>
 
   <!-- ✅ 기본 메타 -->
-  <meta name="description" content="제주감귤돼지들 여행 · 2026.03.01~03.03 · 일정/준비물 · 초대받은 분만!" />
+  <meta name="description" content="제주감귤돼지들 여행 · 2026.03.01~03.03 · 항공/호텔/일정/준비물 · 초대받은 분만!" />
   <link rel="canonical" href="https://ptpizza.github.io/jeju-tangerine-pig-trip/" />
 
   <!-- ✅ 카톡 미리보기 (Open Graph) -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="제주감귤돼지들 여행" />
   <meta property="og:title" content="🍊🐷 제주감귤돼지들 여행 초대권" />
-  <meta property="og:description" content="2026.03.01~03.03 · 호텔/일정/준비물 · 감귤 충전 여행 · 초대받은 분만!" />
+  <meta property="og:description" content="2026.03.01~03.03 · 항공/호텔/일정/준비물 · 감귤 충전 여행 · 초대받은 분만!" />
   <!-- ✅ og:url은 카톡 캐시 꼬임 방지 위해 제거 -->
 
   <!-- ✅ 카톡 썸네일 -->
@@ -27,7 +27,7 @@
   <!-- ✅ 트위터(겸용) 보강 -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="🍊🐷 제주감귤돼지들 여행 초대권" />
-  <meta name="twitter:description" content="2026.03.01~03.03 · 호텔/일정/준비물 · 초대받은 분만!" />
+  <meta name="twitter:description" content="2026.03.01~03.03 · 항공/호텔/일정/준비물 · 초대받은 분만!" />
   <meta name="twitter:image" content="https://ptpizza.github.io/jeju-tangerine-pig-trip/teletobi5.jpeg?v=20260206" />
 
   <style>
@@ -230,7 +230,6 @@
 <body>
   <div class="card">
 
-    <!-- ✅ 로고: 네가 올린 파일명 반영 -->
     <div class="logo-wrap">
       <img src="./pigtripjeju.jpeg" alt="제주감귤돼지들 여행 로고" class="logo" />
     </div>
@@ -248,12 +247,11 @@
 
     <div class="info">
       <div class="row"><div class="icon">📅</div><div><strong>2026. 03. 01 (일) ~ 03. 03 (화)</strong></div></div>
-      <div class="row"><div class="icon">🕖</div><div><b>모이는 시간:</b> 07:00 <span class="pill">느슨한 집합</span></div></div>
+      <div class="row"><div class="icon">🕖</div><div><b>모이는 시간:</b> 07:00 <span class="pill">김포에서 집합</span></div></div>
       <div class="row"><div class="icon">🏨</div><div><b>호텔:</b> (지도 버튼으로 확인)</div></div>
       <div class="row"><div class="icon">🧡</div><div><b>컨셉:</b> 감귤색 포인트 하나만 장착 🍊</div></div>
     </div>
 
-    <!-- ✅ 호텔 네이버지도 링크 반영 -->
     <a class="btn-map"
        href="https://map.naver.com/p/entry/place/1450244995?lng=126.9145096&lat=33.4520787&placePath=%2F&entry=plt&searchType=place"
        target="_blank"
@@ -261,7 +259,29 @@
       📍 호텔 위치(네이버 지도) 열기
     </a>
 
-    <!-- ✅ 일정(초안) -->
+    <!-- ✅ 추가: 항공편 섹션 -->
+    <div class="section">
+      <h2>✈️ 항공편 정보 <span class="pill">시간 엄수</span></h2>
+      <div class="timeline">
+        <div class="slot">
+          <div class="time">3/1 (일)</div>
+          <div>
+            <b>김포국제공항 → 제주국제공항</b><br />
+            티웨이항공 · <b>07:45 출발</b> → <b>09:00 도착</b>
+            <div class="note">※ 체크인/보안검색 고려해서 늦어도 07:00쯤 만나기</div>
+          </div>
+        </div>
+        <div class="slot">
+          <div class="time">3/3 (화)</div>
+          <div>
+            <b>제주국제공항 → 김포국제공항</b><br />
+            <b>18:10 출발</b> → <b>19:20 도착</b>
+            <div class="note">※ 공항 도착은 출발 1시간~1시간 30분 전 추천</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="section">
       <h2>🗓️ 일정(초안) <span class="pill">대충 이렇다</span></h2>
       <div class="timeline">
@@ -289,11 +309,10 @@
       </div>
     </div>
 
-    <!-- ✅ 준비물 -->
     <div class="section">
       <h2>🎒 준비물 & 체크</h2>
       <ul class="list">
-        <li>신분증</li>
+        <li>신분증 (필수)</li>
         <li>편한 신발(산책/시장/바다 코스 대비)</li>
         <li>감귤색 아이템 1개 (양말/모자/가방 등)</li>
         <li>보조배터리(사진 많이 찍음)</li>
@@ -314,11 +333,10 @@
 
   </div>
 
-  <!-- ✅ D-Day 카운트다운 로직 -->
   <script>
     (function () {
-      // ✅ 여행 시작일: 2026-03-01 10:30 (KST)
-      const tripStart = new Date("2026-03-01T10:30:00+09:00");
+      // ✅ D-Day 기준을 "진짜 출발"로 변경: 2026-03-01 07:45 (KST)
+      const tripStart = new Date("2026-03-01T07:45:00+09:00");
       const now = new Date();
 
       const msPerDay = 24 * 60 * 60 * 1000;
